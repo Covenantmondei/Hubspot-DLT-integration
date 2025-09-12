@@ -11,7 +11,6 @@ def register_models(api: Api):
         'accessToken': fields.String(
             required=True, 
             description='HubSpot API access token', 
-            example=''
         )
     })
 
